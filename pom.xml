@@ -408,6 +408,8 @@
 						<exclude>**/*.properties</exclude>
 						<exclude>**/*.log</exclude>
 						<exclude>*.txt/**</exclude>
+						<exclude>**/sql-client-config.yaml</exclude>
+						<exclude>**/src/main/resources/META-INF/services/org.apache.flink.table.factories.TableFactory</exclude>
 						<!-- Administrative files in the main trunk. -->
 						<exclude>**/README.md</exclude>
 						<exclude>CHANGELOG</exclude>
